@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "author": "zhangzhh <zhangzhh@dtxytech.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "prisma generate && umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.7.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "umi": "^4.0.89"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.17",
+    "prisma": "^5.7.1",
+    "typescript": "^5.3.3",
+    "@umijs/plugins": "^4.0.89",
+    "tailwindcss": "^3"
+  }
+}
